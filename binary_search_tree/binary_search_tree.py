@@ -15,9 +15,6 @@ class BinarySearchTree:
         # * current variable begins as root and becomes children as evaluation proceeds
         current = self
         # * Base Cases -- if there are no children in direction, insert new BinarySearchTree w/ given value
-        # if current.left is None and current.right is None:
-        #     if current.value < value:
-        #         current.
 
 # * If self.value is less than value, check the left child
         if self.value > value:
